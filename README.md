@@ -64,9 +64,11 @@ Lo mejor antes de seguir leyendo o viendo videos es experimentar construyendo ci
 
 ### 2.2 led + resistencia + interruptor mecánico
 
-## Montaje #3 : interruptor 'reed' m, magnético IC
+## Montaje #3 : interruptor 'reed' + magnético IC
 
-### Interruptor reed
+### 3.1 led + resistencia + interruptor reed
+
+#### Interruptor reed
 
 Vamos a sustituir el interruptor mecánico por un interruptor magnético : que es un ampolla con dos laminas normalmente separadas que cerca de un imán de juntan para cerrar el circuito
 
@@ -74,19 +76,35 @@ Vamos a sustituir el interruptor mecánico por un interruptor magnético : que e
 
 ![](./reed_lado.jpg)
 
-### 3.1 led + resistencia + interruptor reed
+#### Montaje led + resistencia + interruptor reed
 
 Vamos a montar un circuito en la protoboard como el siguiente esquema:
 
 ![](./circut_reed_esquemático.png)
 
-En la protoboard quedaria asi
+S1 es un interruptor 'reed'. En la protoboard quedaria asi
 
 ![](./circut_reed_bb.png)
 
-S1 es un interruptor 'reed' 
+#### Prueba de funcionamiento
+
+Acerca un imán al circuito y el LED lucirá
 
 ### 3.2 Led + resistencia + Interruptor magnético con IC A3144
+
+#### Integrado A3144
+
+Es un circuito integrado qeu usa el efecto hall para detectar campos magnéticos. Da una respuesta todo-nada
+
+#### Montaje Led + resistencia + IC A3144
+
+![](C:\Users\josec\OneDrive\Documentos\GitHub\2526CL1_R_CircElect0\circut_a3144_esquemático.png)
+
+![](C:\Users\josec\OneDrive\Documentos\GitHub\2526CL1_R_CircElect0\circut_a3144_bb.png)
+
+#### Prueba de funcionamiento
+
+Acerca un imán al circuito y el LED lucirá
 
 ## ( si da tiempo) Ley ohm : Led + resistencia : medida de voltajes y corrientes
 
