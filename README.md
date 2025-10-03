@@ -1,4 +1,4 @@
-# CL1 - R Circuitos electronicos #0
+# ~~borrador~~ CL1 - R Circuitos electrónicos #0
 
 Indice evolutivo del las clases del taller + libros y webs de referencia:
 
@@ -50,15 +50,7 @@ Especialmente necesario es leer el capitulo 1, y más concretamente los apartado
 
 ### Algunos videos sencillos que pueden ayudar
 
-
-
-
-
 ### Avanzado : Modelo mas real de la electricidad en los circuitos
-
-
-
-
 
 ## Montaje#1 : 1eros circuitos : bombilla + batería / Led + pila botón
 
@@ -88,13 +80,9 @@ Medidas eléctricas pag 47
 
 [OhmZone - Circuit Simulator](https://www.article19.com/circuit-simulator/)
 
-
-
 ### Caso real
 
 Usaremos los mismos circuitos de led + resistencia que hemos construido, para medir voltajes y corrientes: ¡Manos a la obra!
-
-
 
 ## Tabla resumen de programas - Sin programas nuevos
 
