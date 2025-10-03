@@ -98,9 +98,9 @@ Es un circuito integrado qeu usa el efecto hall para detectar campos magnéticos
 
 #### Montaje Led + resistencia + IC A3144
 
-![](C:\Users\josec\OneDrive\Documentos\GitHub\2526CL1_R_CircElect0\circut_a3144_esquemático.png)
+![](./circut_a3144_esquemático.png)
 
-![](C:\Users\josec\OneDrive\Documentos\GitHub\2526CL1_R_CircElect0\circut_a3144_bb.png)
+![](./circut_a3144_bb.png)
 
 #### Prueba de funcionamiento
 
