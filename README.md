@@ -70,19 +70,19 @@ Lo mejor antes de seguir leyendo o viendo videos es experimentar construyendo ci
 
 Vamos a sustituir el interruptor mecánico por un interruptor magnético : que es un ampolla con dos laminas normalmente separadas que cerca de un imán de juntan para cerrar el circuito
 
-<img src="file:///C:/Users/josec/OneDrive/Documentos/GitHub/2526CL1_R_CircElect0/reed_arriba.jpg" title="" alt="" width="693">
+![](./reed_arriba.jpg)
 
-![](C:\Users\josec\OneDrive\Documentos\GitHub\2526CL1_R_CircElect0\reed_lado.jpg)
+![](./reed_lado.jpg)
 
 ### 3.1 led + resistencia + interruptor reed
 
 Vamos a montar un circuito en la protoboard como el siguiente esquema:
 
-![](C:\Users\josec\OneDrive\Documentos\GitHub\2526CL1_R_CircElect0\circut_reed_esquemático.png)
+![](./circut_reed_esquemático.png)
 
 En la protoboard quedaria asi
 
-![](C:\Users\josec\OneDrive\Documentos\GitHub\2526CL1_R_CircElect0\circut_reed_bb.png)
+![](./circut_reed_bb.png)
 
 S1 es un interruptor 'reed' 
 
