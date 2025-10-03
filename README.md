@@ -86,8 +86,6 @@ En la protoboard quedaria asi
 
 S1 es un interruptor 'reed' 
 
-
-
 ### 3.2 Led + resistencia + Interruptor magnético con IC A3144
 
 ## ( si da tiempo) Ley ohm : Led + resistencia : medida de voltajes y corrientes
