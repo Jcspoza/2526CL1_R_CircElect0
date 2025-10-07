@@ -52,17 +52,53 @@ Especialmente necesario es leer el capitulo 1, y más concretamente los apartado
 
 ### Avanzado : Modelo mas real de la electricidad en los circuitos
 
+[Watch electricity hit a fork in the road at half a billion frames per second - YouTube](https://youtu.be/2AXv49dDQJw?si=BoCDWF3X-EOsktdu)
+
 ## Montaje#1 : 1eros circuitos : bombilla + batería / Led + pila botón
 
-Lo mejor antes de seguir leyendo o viendo videos es experimentar construyendo circuitos
+Lo mejor antes de seguir leyendo o viendo videos es experimentar construyendo circuitos.
+
+![](assets/circuito_abierto.jpg)
+
+![](assets/circuito_cerrado.jpg)
 
 ## Uso de la Protoboard
 
+Normalmente no usamos cables para 'armar' circuitos, porque :
+
+- Es muy poco fiable hacer montajes, incluso aunque sean de prueba, conectando hilos cualquier movimiento puede desconectar un cable
+
+- Los circuitos pueden ser complicados
+
+- Es poco didáctico y difícil de reproducir
+
+Para montajes de prueba, se suele usar una 'Placa de Pruebas/ Prototipos' o Protoboard o Breadboard :  hay una historia curiosa aqui [ver la Historia de las protoboard](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fvm.tiktok.com%2FZNdGgYfU9%2F&data=05%7C02%7C%7C72b601b4756e4bdb7ba708de00c64233%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638949048680897418%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=WR2LfBeXH%2BWbmjmLKCMwrI46LXCX7psUIOcVaKi8yBI%3D&reserved=0)
+
+Una Protoboard permite conexiones entre componentes electrónicos con agujeros a distancia standard 0.1”=2.5 mm, algunos de ellos pre-conectados de forma que sirvan en muchos montajes  (ver esquema)
+
+![](assets/protoboard400.png)
+
+Las conexiones que no hace la Protoboard, se hacen con cables “dupond” macho – macho o con cable rígido en forma de “grapa”.
+
+![](assets/cablesdupond.png)
+
+Hay 2 x 2 líneas de alimentación en los laterales porque la mayoría de los componente necesitan ser alimentados a voltaje + y - . Hay 2 líneas diferentes porque en ocasiones usaremos 2 voltajes en los montajes, normalmente 5 y 3.3 voltios. Si solo usamos un voltaje , el tener dos líneas acortará algunas conexiones.
+
+Hay 3 tamaños de Protoboard mas comunes : 170, 400 y 832 agujeros.
+
 ## Montaje#2 : 2do Circuitos simples en Protoboard:
 
-### 2.1 bombillas + alimentador
+### 2.1 bombillas + alimentador+ interruptor mecánico
+
+![](assets/bombilla_abierto.jpg)
+
+![](assets/bombilla_cerrado.jpg)
 
 ### 2.2 led + resistencia + interruptor mecánico
+
+![](assets/led_abierto.jpg)
+
+![](assets/led_cerrado.jpg)
 
 ## Montaje #3 : interruptor 'reed' + magnético IC
 
@@ -72,19 +108,19 @@ Lo mejor antes de seguir leyendo o viendo videos es experimentar construyendo ci
 
 Vamos a sustituir el interruptor mecánico por un interruptor magnético : que es un ampolla con dos laminas normalmente separadas que cerca de un imán de juntan para cerrar el circuito
 
-![](./reed_arriba.jpg)
+![](assets/reed_arriba.jpg)
 
-![](./reed_lado.jpg)
+![](assets/reed_lado.jpg)
 
 #### Montaje led + resistencia + interruptor reed
 
-Vamos a montar un circuito en la protoboard como el siguiente esquema:
+Vamos a montar un circuito en la Protoboard como el siguiente esquema:
 
-![](./circut_reed_esquemático.png)
+![](assets/circut_reed_esquemático.png)
 
-S1 es un interruptor 'reed'. En la protoboard quedaria asi
+S1 es un interruptor 'reed'. En la Protoboard quedaría asi
 
-![](./circut_reed_bb.png)
+![](assets/circut_reed_bb.png)
 
 #### Prueba de funcionamiento
 
@@ -98,9 +134,9 @@ Es un circuito integrado qeu usa el efecto hall para detectar campos magnéticos
 
 #### Montaje Led + resistencia + IC A3144
 
-![](./circut_a3144_esquemático.png)
+![](assets/circut_a3144_esquemático.png)
 
-![](./circut_a3144_bb.png)
+![](assets/circut_a3144_bb.png)
 
 #### Prueba de funcionamiento
 
@@ -130,4 +166,4 @@ Usaremos los mismos circuitos de led + resistencia que hemos construido, para me
 
 ## TO DO :
 
-1. xxxx
+1. Usar interruptor reed con Pico , siendo el interruptor reed entrada On/off
