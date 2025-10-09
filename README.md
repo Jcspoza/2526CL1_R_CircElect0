@@ -50,7 +50,19 @@ Especialmente necesario es leer el capitulo 1, y más concretamente los apartado
 
 ### Algunos videos sencillos que pueden ayudar
 
+[ENTIENDE TODA LA ELECTRICIDAD](https://youtu.be/kHdqToHKvQE?si=plQQMs1-ElfcTiw4) Ver desde el minuto 0 al 7 minuto, resto NO
+
 ### Avanzado : Modelo mas real de la electricidad en los circuitos
+
+El mas completo en español : [La idea errónea que nos enseñan sobre la electricidad](https://youtu.be/vjFefDCIje0?si=a86zK7UBtTe1QNFz)
+
+Video de explicación y detalles en español sobre el video anterior  [La idea errónea que nos enseñan sobre la electricidad - Parte 1](https://youtu.be/eqwyE7432_s?si=6ujX4dplIVayItcl)
+
+Un articulo completo en ingles : [Understanding-Electricity-and-Circuits-Ian-M-Sefton.pdf](assets/Understanding-Electricity-and-Circuits-Ian-M-Sefton.pdf)
+
+Varios otros videos interesantes: 
+
+Un video corto en ingles : [Convencional current vs electrons flow](https://www.tiktok.com/@theengineeringmindset/video/7548455065560927510)
 
 [Watch electricity hit a fork in the road at half a billion frames per second - YouTube](https://youtu.be/2AXv49dDQJw?si=BoCDWF3X-EOsktdu)
 
