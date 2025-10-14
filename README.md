@@ -1,10 +1,12 @@
-# ~~borrador~~ CL1 - R Circuitos electrónicos #0
+# CL1 - R Circuitos electrónicos #0
 
 Indice evolutivo del las clases del taller + libros y webs de referencia:
 
 [GitHub - Jcspoza/2526_PyR_Index: Curso Programación y Robotica 2025 2026 - CMM BML](https://github.com/Jcspoza/2526_PyR_Index)
 
 ## Clase 1 - Indice - 90 minutos
+
+- Materiales y links a información
 
 - Modelo simple de electricidad 
 
@@ -29,6 +31,16 @@ Indice evolutivo del las clases del taller + libros y webs de referencia:
 - Tabla resumen de programas - Sin programas nuevos
 
 - TO DO
+
+## Materiales y links a informacion
+
+| Material                                                                                                                                                                                                                                | Descripcion                                                                 | Kit SF |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |:------:|
+| [Protoboard 400 o 700](https://docs.sunfounder.com/projects/kepler-kit/en/latest/component/component_breadboard.html)                                                                                                                   | Placa para prototipos ver apartado 'Uso de la protoboard'                   | SI     |
+| [Cables dupond M-M](https://docs.sunfounder.com/projects/kepler-kit/en/latest/component/component_wire.html)                                                                                                                            | Sirven para hacer conexiones en protoboard                                  | SI     |
+| [Interruptor deslizante o similar](https://docs.sunfounder.com/projects/kepler-kit/en/latest/component/component_slide_switch.html)                                                                                                     | Para cerrar o abrir un circuito eléctrico                                   | SI     |
+| [Interruptor reed](https://docs.sunfounder.com/projects/kepler-kit/en/latest/component/component_reed.html)                                                                                                                             | Responde a un imán cerrando un circuito                                     | SI     |
+| [Integrado A3144 sensor efecto hall- video](https://youtu.be/2bhOeZKlR6Q?si=jHhxKIZa2TwwbQ3t) / [datsheet](https://www.elecrow.com/download/A3141-2-3-4-Datasheet.pdf?srsltid=AfmBOoq6nYO8xuLqwHmmPzupl0l0wZYpCiEVHqcGMW1F_LgzDvq2Cq7N) | Responde a un imán, salida en colector abierto, asi que requiere un pull-up | NO     |
 
 ## Modelo simple de electricidad - circuito de agua
 
@@ -142,7 +154,7 @@ Acerca un imán al circuito y el LED lucirá
 
 #### Integrado A3144
 
-Es un circuito integrado qeu usa el efecto hall para detectar campos magnéticos. Da una respuesta todo-nada
+Es un circuito integrado que usa el efecto hall para detectar campos magnéticos. Da una respuesta todo-nada. Video [Sensor de efecto HALL A3144 Unipolar #efectohall #sensorhall - YouTube](https://youtu.be/2bhOeZKlR6Q?si=jHhxKIZa2TwwbQ3t)). Tiene la salida en colector abierto ( no lo explicare en esta leccion) , lo que hace que requiera una resistencia de pull-up = conectada al positivo de la bateria
 
 #### Montaje Led + resistencia + IC A3144
 
@@ -178,4 +190,4 @@ Usaremos los mismos circuitos de led + resistencia que hemos construido, para me
 
 ## TO DO :
 
-1. Usar interruptor reed con Pico , siendo el interruptor reed entrada On/off
+1. Usar interruptor reed con Pico , siendo el interruptor reed entrada On/off 
