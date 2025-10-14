@@ -44,7 +44,7 @@ Indice evolutivo del las clases del taller + libros y webs de referencia:
 
 ## Modelo simple de electricidad - circuito de agua
 
-Vamos a seguir el modelo simple de electricidad que describe el libro [Electronica para Makers](electronica-para-makers-paolo-aliverti.pdf), de compara la electricidad con un circuito de agua (se explicara en la clase)
+Vamos a seguir el modelo simple de electricidad que describe el libro [Electronica para Makers](electronica-para-makers-paolo-aliverti.pdf), donde se compara la electricidad con un circuito de agua (se explicará en la clase)
 
 Especialmente necesario es leer el capitulo 1, y más concretamente los apartados 
 
@@ -90,7 +90,7 @@ Lo mejor antes de seguir leyendo o viendo videos es experimentar construyendo ci
 
 Normalmente no usamos cables para 'armar' circuitos, porque :
 
-- Es muy poco fiable hacer montajes, incluso aunque sean de prueba, conectando hilos cualquier movimiento puede desconectar un cable
+- Es muy poco fiable hacer montajes conectando hilos : cualquier movimiento puede desconectar un cable
 
 - Los circuitos pueden ser complicados
 
@@ -98,17 +98,19 @@ Normalmente no usamos cables para 'armar' circuitos, porque :
 
 Para montajes de prueba, se suele usar una 'Placa de Pruebas/ Prototipos' o Protoboard o Breadboard :  hay una historia curiosa aqui [ver la Historia de las protoboard](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fvm.tiktok.com%2FZNdGgYfU9%2F&data=05%7C02%7C%7C72b601b4756e4bdb7ba708de00c64233%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638949048680897418%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=WR2LfBeXH%2BWbmjmLKCMwrI46LXCX7psUIOcVaKi8yBI%3D&reserved=0)
 
-Una Protoboard permite conexiones entre componentes electrónicos con agujeros a distancia standard 0.1”=2.5 mm, algunos de ellos pre-conectados de forma que sirvan en muchos montajes  (ver esquema)
+Una Protoboard permite conexiones entre componentes electrónicos con agujeros a distancia standard 0.1”=2.5 mm, algunos de ellos pre-conectados de forma que sirvan en muchos montajes  (ver esquema), sin necesidad de añadir más cables
 
 ![](assets/protoboard400.png)
 
-Las conexiones que no hace la Protoboard, se hacen con cables “dupond” macho – macho o con cable rígido en forma de “grapa”.
+Las conexiones que no hace internamente la Protoboard, se hacen con cables “dupond” macho – macho o con cable rígido en forma de “grapa”.
 
 ![](assets/cablesdupond.png)
 
-Hay 2 x 2 líneas de alimentación en los laterales porque la mayoría de los componente necesitan ser alimentados a voltaje + y - . Hay 2 líneas diferentes porque en ocasiones usaremos 2 voltajes en los montajes, normalmente 5 y 3.3 voltios. Si solo usamos un voltaje , el tener dos líneas acortará algunas conexiones.
+Hay 2 x 2 líneas de alimentación en los laterales porque la mayoría de los componente necesitan ser alimentados a voltaje + y - . Hay 2 líneas diferentes porque en ocasiones usaremos 2 voltajes en los montajes, normalmente 5 y 3.3 voltios. Si solo usamos un voltaje , el tener dos líneas acortará algunas conexiones. 
 
-Hay 3 tamaños de Protoboard mas comunes : 170, 400 y 832 agujeros.
+**IMPORTANTE** : si 1 montaje tiene 2 alimentaciones con voltajes distintos, los negativos ( o GND) han de unirse / si el voltaje es solo uno pero usamos las 4 líneas de la protoboard, uniremso los '+'  (rojo) y los '-' (negro)
+
+Hay 3 tamaños de Protoboard mas comunes : 170, 400 y 832 agujeros. En el kit de sunfounder viene una de 832. Recomendación: tener 1 o 2 protoboard de 400
 
 ## Montaje#2 : 2do Circuitos simples en Protoboard:
 
@@ -154,7 +156,7 @@ Acerca un imán al circuito y el LED lucirá
 
 #### Integrado A3144
 
-Es un circuito integrado que usa el efecto hall para detectar campos magnéticos. Da una respuesta todo-nada. Video [Sensor de efecto HALL A3144 Unipolar #efectohall #sensorhall - YouTube](https://youtu.be/2bhOeZKlR6Q?si=jHhxKIZa2TwwbQ3t)). Tiene la salida en colector abierto ( no lo explicare en esta leccion) , lo que hace que requiera una resistencia de pull-up = conectada al positivo de la bateria
+Es un circuito integrado que usa el efecto hall para detectar campos magnéticos. Da una respuesta todo-nada. Video [Sensor de efecto HALL A3144 Unipolar #efectohall #sensorhall - YouTube](https://youtu.be/2bhOeZKlR6Q?si=jHhxKIZa2TwwbQ3t)). Tiene la salida en colector abierto ( no lo explicaré en esta lección) , lo que hace que requiera una resistencia de pull-up = conectada al positivo de la batería, que normalmente es de un valor alto como 10kohm
 
 #### Montaje Led + resistencia + IC A3144
 
